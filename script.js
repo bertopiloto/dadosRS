@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         data: {
             labels: ['Municípios afetados', 'Pessoas em abrigos', 'Desalojados', 'Afetados'],
             datasets: [{
-                label: 'Dados de Desastres',
+                label: 'Dados da Ocorrência',
                 data: [461, 77202, 540188, 2304422],
                 backgroundColor: [
                     'rgba(52, 152, 219, 0.6)',
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         data: {
             labels: ['Feridos', 'Desaparecidos', 'Óbitos confirmados', 'Óbitos em investigação'],
             datasets: [{
-                label: 'Dados de Desastres',
+                label: 'Dados de Impacto',
                 data: [806, 94, 155, 0],
                 backgroundColor: [
                     'rgba(52, 152, 219, 0.6)',
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         data: {
             labels: ['Pessoas resgatadas', 'Animais resgatados', 'Efetivo', 'Viaturas', 'Aeronaves', 'Embarcações'],
             datasets: [{
-                label: 'Dados de Desastres',
+                label: 'Dados de Resgate',
                 data: [82666, 12215, 27716, 4061, 21, 302],
                 backgroundColor: 'rgba(46, 204, 113, 0.6)',
                 borderColor: 'rgba(46, 204, 113, 1)',
